@@ -20,6 +20,7 @@
 /* General styles */
 
 body {
+	
 	background-color: #fff;
 	font-family: 'Playfair Display', serif;
 }
@@ -27,6 +28,21 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;	
+}
+
+.body-background {
+	background-image: image-url('student.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 200px;
+	margin: 0;
+}
+
+.welcome {
+	color: #a60ad5;
+	font-size: 100px;
+	padding: 100px;
+	margin: 0;
 }
 
 .btn-custom {
@@ -87,6 +103,12 @@ h1, h2, h3, h4, h5, h6 {
 	.btn-default {
 		color: #a60ad5;
 	}
+}
+
+.home-btn {
+	font-size: x-large;
+  color: #444;
+	
 }
 
 

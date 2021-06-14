@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   resources :messages do 
     resources :comments
   end
-  root 'messages#index'
+  root 'static_pages#home'
 end
 
